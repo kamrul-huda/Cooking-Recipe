@@ -1,0 +1,110 @@
+[
+  {
+    "recipe_id": "1",
+    "recipe_name": "Spaghetti Carbonara",
+    "recipe_image": "https://i.ibb.co/T17tP0G/spaghetti-carbonara.jpg",
+    "short_description": "Classic Italian pasta dish with creamy sauce",
+    "ingredients": [
+      "Spaghetti noodles",
+      "Eggs",
+      "Parmesan cheese",
+      "Bacon",
+      "Garlic",
+      "Salt",
+      "Black pepper"
+    ],
+    "prepare_time": 30,
+    "calories": 500
+  },
+  {
+    "recipe_id": "2",
+    "recipe_name": "Chicken Alfredo",
+    "recipe_image": "https://i.ibb.co/YRJ6D7y/chicken-alfredo-01.jpg",
+    "short_description": "Creamy pasta with grilled chicken",
+    "ingredients": [
+      "Fettuccine noodles",
+      "Chicken breast",
+      "Heavy cream",
+      "Parmesan cheese",
+      "Garlic",
+      "Salt",
+      "Black pepper"
+    ],
+    "prepare_time": 40,
+    "calories": 600
+  },
+  {
+    "recipe_id": "3",
+    "recipe_name": "Vegetable Stir Fry",
+    "recipe_image": "https://i.ibb.co/QP7NxwX/vegetable-stir-fry.jpg",
+    "short_description": "Colorful mix of fresh vegetables stir-fried to perfection",
+    "ingredients": [
+      "Broccoli",
+      "Carrots",
+      "Bell peppers",
+      "Snow peas",
+      "Mushrooms",
+      "Soy sauce",
+      "Sesame oil",
+      "Garlic",
+      "Ginger",
+      "Rice vinegar"
+    ],
+    "prepare_time": 25,
+    "calories": 300
+  },
+  {
+    "recipe_id": "4",
+    "recipe_name": "BBQ Pulled Beef Sandwich",
+    "recipe_image": "https://i.ibb.co/RgDLz8W/bbq-pulled-sandwich.jpg",
+    "short_description": "Tender pulled beef in barbecue sauce served on a bun",
+    "ingredients": [
+      "Beef shoulder",
+      "BBQ sauce",
+      "Hamburger buns",
+      "Coleslaw",
+      "Salt",
+      "Black pepper",
+      "Garlic powder",
+      "Onion powder",
+      "Apple cider vinegar",
+      "Water or chicken broth"
+    ],
+    "prepare_time": 360,
+    "calories": 450
+  },
+  {
+    "recipe_id": "5",
+    "recipe_name": "Caprese Salad",
+    "recipe_image": "https://i.ibb.co/Wpz69VV/caprese-salad.jpg",
+    "short_description": "Refreshing salad with tomatoes, mozzarella, and basil",
+    "ingredients": [
+      "Tomatoes",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Balsamic vinegar",
+      "Extra virgin olive oil",
+      "Salt",
+      "Black pepper"
+    ],
+    "prepare_time": 15,
+    "calories": 250
+  },
+  {
+    "recipe_id": "6",
+    "recipe_name": "Chocolate Chip Cookies",
+    "recipe_image": "https://i.ibb.co/wrmt37K/chocolate-chip-cookies.jpg",
+    "short_description": "Classic homemade cookies with chocolate chips",
+    "ingredients": [
+      "All-purpose flour",
+      "Butter",
+      "Brown sugar",
+      "Granulated sugar",
+      "Eggs",
+      "Salt",
+      "Chocolate chips"
+    ],
+    "prepare_time": 20,
+    "calories": 150
+  }
+]
