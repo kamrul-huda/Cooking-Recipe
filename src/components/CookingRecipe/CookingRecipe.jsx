@@ -1,12 +1,11 @@
 import PropTypes from "prop-types";
 
-const CookingRecipe = (recipe, count) => {
-  const { recipe_name, prepare_time, calories } = recipe.recipe;
-  console.log(count);
-
+const CookingRecipe = (recipe, index) => {
+  const { recipe_name, prepare_time, calories } = recipe;
+  console.log(index);
   return (
-    <tr className="text-[#282828B3] fira-sans-font mb-2 gap-2">
-      <td>{count + 1}</td>
+    <tr className="text-[#282828B3] firaSans mb-2 gap-2">
+      <td>{0}</td>
       <td>{recipe_name}</td>
       <td>{prepare_time} minutes</td>
       <td>{calories} calories</td>
@@ -15,8 +14,8 @@ const CookingRecipe = (recipe, count) => {
 };
 
 CookingRecipe.propTypes = {
-  recipe: PropTypes.object,
-  count: PropTypes.number,
+  recipe: PropTypes.array,
+  index: PropTypes.number,
 };
 
 export default CookingRecipe;

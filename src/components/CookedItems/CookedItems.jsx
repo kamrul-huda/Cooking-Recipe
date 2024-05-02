@@ -9,12 +9,12 @@ const CookedItems = ({
 }) => {
   return (
     <div>
-      <h1 className="font-semibold text-2xl text-[#282828] lexend-font">
+      <h1 className="font-semibold text-2xl text-[#282828] lexend">
         Want to Cook: {cookedRecipes.length}
       </h1>
       <hr className="mt-2 mb-2 ml-7 mr-7" />
       <div>
-        <table>
+        <table className="firaSans">
           <tr>
             <th></th>
             <th>Name</th>

@@ -26,13 +26,10 @@ function App() {
   };
 
   const [cookingRecipes, setCookingRecipes] = useState([]);
-  const [count, setIndex] = useState(0);
 
-  const handleAddToCooking = (id, recipe, count) => {
+  const handleAddToCooking = (id, recipe) => {
     const newCookingRecipe = [...cookingRecipes, recipe];
     setCookingRecipes(newCookingRecipe);
-    setIndex(count + 1);
-    console.log(count);
 
     const remainingCookingRecipes = cookedRecipes.filter(
       (cookingRecipe) => cookingRecipe.recipe_id !== id
@@ -71,7 +68,6 @@ function App() {
             cookingRecipes={cookingRecipes}
             cookingTime={cookingTime}
             calories={calories}
-            count={count}
           ></CookingRecipes>
 
           <ToastContainer />

@@ -3,7 +3,7 @@ import { RiAccountCircleLine } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <div>
+    <div className="lexend">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -41,7 +41,9 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Recipe Calories</a>
+          <a href="#" className="text-2xl font-bold hover:bg-none">
+            Recipe Calories
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -86,7 +88,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative mt-5">
         <img
           className="w-full h-full rounded-3xl  bg-gradient-to-l hover:bg-gradient-to-r  before:opacity-10"
           src={banner}
@@ -94,16 +96,16 @@ const Header = () => {
         />
 
         <div className="w-full h-full  absolute bg-gradient-to-r from-stone-950 via-slate-50 to-stone-950 opacity-10 rounded-3xl top-0 left-0"></div>
-        <div className="w-2/3 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] space-y-4">
-          <h1 className="text-5xl text-white lexend">
+        <div className="w-2/3 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] space-y-7">
+          <h1 className="text-5xl text-white font-bold leading-snug lexend">
             Discover an exceptional cooking <br /> class tailored for you!
           </h1>
-          <p className="text-xl text-white">
+          <p className="text-xl text-white leading-8">
             Embark on a culinary journey and uncover the art of exceptional
             cooking. From gourmet delights to homey classics, explore flavors
             that inspire
           </p>
-          <div className="flex items-center justify-center gap-4 ">
+          <div className="flex items-center justify-center gap-4">
             <button className="btn bg-[#0BE58A] rounded-full text-[#150B2B] hover:bg-[#0BE58A] hover:scale-105 text-xl">
               Explore Now
             </button>
